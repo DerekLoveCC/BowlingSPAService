@@ -24,7 +24,7 @@ exit /b %errorlevel%
 
 
 :RunOpenCoverUnitTestMetrics
-"%~dp0..\packages\OpenCover.4.5.3723\OpenCover.Console.exe" ^
+"%~dp0..\packages\OpenCover.4.6.519\OpenCover.Console.exe" ^
 -register:user ^
 -target:"%VS120COMNTOOLS%\..\IDE\mstest.exe" ^
 -targetargs:"/testcontainer:\"%~dp0..\BowlingSPAService.Tests\bin\Debug\BowlingSPAService.Tests.dll\" /resultsfile:\"%~dp0BowlingSPAService.trx\"" ^
